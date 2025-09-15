@@ -1,0 +1,92 @@
+/* src/components/MenuItemCard.css */
+.menu-item-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px var(--shadow-light);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px var(--shadow-medium);
+}
+
+.item-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item-info {
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.item-name {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-sm);
+  color: rgba(var(--secondary-color));
+}
+
+.item-description {
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: var(--spacing-md);
+}
+
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.item-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #f1c40f;
+  font-weight: 600;
+}
+
+.item-tag {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+
+.spicy {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.must-try {
+  background-color: #f39c12;
+  color: white;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.item-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.add-to-cart-btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+}

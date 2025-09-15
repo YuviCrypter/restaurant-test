@@ -1,0 +1,40 @@
+/* src/pages/Menu.css */
+.menu-page {
+  padding: var(--spacing-xl) var(--spacing-md);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgba(var(--secondary-color));
+  position: relative;
+  display: inline-block;
+  margin: 0 auto var(--spacing-sm);
+}
+
+.page-subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: var(--spacing-xl);
+}
+
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.no-items-found {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #c0392b;
+  font-weight: 500;
+  padding: var(--spacing-xl);
+  border: 2px dashed #e74c3c;
+  border-radius: var(--border-radius);
+}

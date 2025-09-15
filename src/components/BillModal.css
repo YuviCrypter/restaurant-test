@@ -1,0 +1,71 @@
+/* src/components/BillModal.css */
+.bill-header {
+  text-align: center;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.bill-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bill-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #ccc;
+  padding: var(--spacing-sm) 0;
+}
+
+.bill-summary {
+  text-align: right;
+  padding-top: var(--spacing-md);
+}
+
+.bill-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--spacing-sm) 0;
+  font-weight: 500;
+}
+
+.bill-summary .bill-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-top: 2px solid rgba(var(--secondary-color));
+  padding-top: var(--spacing-sm);
+}
+
+.payment-options {
+  margin-top: var(--spacing-xl);
+  text-align: center;
+}
+
+.payment-buttons {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.payment-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.upi-qr-code {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.upi-qr-code p {
+  margin-bottom: var(--spacing-md);
+}

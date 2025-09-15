@@ -1,0 +1,122 @@
+/* src/pages/Home.css */
+.home-page {
+  /* No specific styles needed here, content sections handle padding */
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 70vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: var(--spacing-md);
+  color: var(--light-text-color);
+  text-shadow: 2px 2px 32px rgb(30, 0, 0);
+}
+
+.hero-tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: var(--spacing-lg);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-button {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+}
+
+/* Section Styling */
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgba(var(--secondary-color));
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.section-subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: var(--spacing-xl);
+}
+
+/* About Us Section */
+.about-us-section {
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-lg);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.about-logo {
+  width: 150px;
+  height: auto;
+  margin-top: var(--spacing-md);
+  animation-duration: 4s;
+}
+
+/* Featured Menu Section */
+.featured-menu-section {
+  background-color: var(--bg-light);
+  padding: var(--spacing-xl) 0;
+}
+
+.featured-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.view-full-menu-cta {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
