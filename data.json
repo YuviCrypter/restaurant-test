@@ -1,0 +1,97 @@
+{
+  "restaurantName": "Spice & Sizzle Bistro",
+  "tagline": "Where every bite tells a story!",
+  "aboutUs": "Welcome to Spice & Sizzle Bistro, your cozy corner for delectable dishes and delightful moments. We pride ourselves on fresh ingredients, authentic flavors, and a dining experience that stays with you.",
+  "contact": {
+    "phone": "+1 (555) 123-4567",
+    "email": "info@spiceandsizzle.com",
+    "address": "123 Foodie Lane, Flavorville, FS 98765"
+  },
+  "socialMedia": {
+    "facebook": "#",
+    "instagram": "#",
+    "twitter": "#"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "Spicy Paneer Tikka",
+      "description": "Succulent paneer marinated in fiery spices and grilled to perfection. A burst of flavor!",
+      "category": "Appetizers",
+      "price": 520,
+      "rating": 4.8,
+      "serves": 2,
+      "isSpicy": true,
+      "isMustTry": true,
+      "imageUrl": "https://spicecravings.com/wp-content/uploads/2020/10/Paneer-Tikka-Featured-1.jpg"
+    },
+    {
+      "id": "item-002",
+      "name": "Classic Margherita Pizza",
+      "description": "Timeless pizza with fresh mozzarella, basil, and our signature tomato sauce.",
+      "category": "Main Courses",
+      "price": 640,
+      "rating": 4.5,
+      "serves": 3,
+      "isSpicy": false,
+      "isMustTry": true,
+      "imageUrl": "https://recipes.heart.org/-/media/AHA/Recipe/Recipe-Images/Classic-Margherita-Pizza-with-Whole-Wheat-Pizza-Crust.jpg?sc_lang=en&hash=8669621DF39E46A90612215CFACFE313"
+    },
+    {
+      "id": "item-003",
+      "name": "Creamy Mushroom Pasta",
+      "description": "Al dente pasta tossed in a rich, creamy mushroom sauce. Pure comfort!",
+      "category": "Main Courses",
+      "price": 540,
+      "rating": 4.2,
+      "serves": 2,
+      "isSpicy": false,
+      "isMustTry": false,
+      "imageUrl": "https://www.kitchensanctuary.com/wp-content/uploads/2021/10/Creamy-Mushroom-Pasta-square-FS-51-1.jpg"
+    },
+    {
+      "id": "item-004",
+      "name": "Chocolate Lava Cake",
+      "description": "Warm, gooey chocolate cake with a molten center, served with vanilla ice cream.",
+      "category": "Desserts",
+      "price": 320,
+      "rating": 4.9,
+      "serves": 1,
+      "isSpicy": false,
+      "isMustTry": true,
+      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2024/5/416116214/ZW/QX/PC/132900754/chocolava-cake-500x500.jpeg"
+    },
+    {
+      "id": "item-005",
+      "name": "Mango Lassi",
+      "description": "Refreshing yogurt drink blended with ripe mangoes. A tropical delight!",
+      "category": "Beverages",
+      "price": 120,
+      "rating": 4.7,
+      "serves": 1,
+      "isSpicy": false,
+      "isMustTry": false,
+      "imageUrl": "https://www.sharmispassions.com/wp-content/uploads/2022/05/mango-lassi3.jpg"
+    },
+    {
+      "id": "item-006",
+      "name": "Grilled Chicken Salad",
+      "description": "Fresh greens, grilled chicken, cherry tomatoes, and a light vinaigrette.",
+      "category": "Salads",
+      "price": 300,
+      "rating": 4.3,
+      "serves": 1,
+      "isSpicy": false,
+      "isMustTry": false,
+      "imageUrl": "https://www.simplyrecipes.com/thmb/KFI2R9ZgZag1tUPFKXgTBEoblIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SImply-Recipes-Grilled-Chicken-Greek-Salad-LEAD-2-f4854b96ee4d4da08d8155de3c7454b8.jpg"
+    }
+  ],
+  "categories": [
+    "All",
+    "Appetizers",
+    "Main Courses",
+    "Desserts",
+    "Beverages",
+    "Salads"
+  ]
+}
